@@ -33,6 +33,27 @@
   <hr>
   <h2 class="title">TAKE THE QUIZ NOW!!!!!!</h2>
   <div class="container">
+
+    <div class="container">
+      <header>
+          <h1>Fun Quiz</h1>
+      </header>
+      <main>
+          <div id="quiz">
+              <h2 id="question">Question goes here</h2>
+              <div id="options">
+                  <button class="option" onclick="checkAnswer(this)">Option 1</button>
+                  <button class="option" onclick="checkAnswer(this)">Option 2</button>
+                  <button class="option" onclick="checkAnswer(this)">Option 3</button>
+                  <button class="option" onclick="checkAnswer(this)">Option 4</button>
+              </div>
+              <div id="feedback"></div>
+          </div>
+          <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+          <div id="score">Score: 0</div>
+      </main>
+  </div>
+  <script src="script.js"></script>
     
   </div>
 </body>
