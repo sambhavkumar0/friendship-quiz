@@ -1,8 +1,6 @@
 const quizData = [
     {
-        question: "What is the capital of France?",
-        options: ["Paris", "London", "Berlin", "Rome"],
-        correctAnswer: "Paris"
+       
     },
     {
         question: "What is the largest planet in our solar system?",
